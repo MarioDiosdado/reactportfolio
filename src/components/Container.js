@@ -34,6 +34,7 @@ class Container extends Component {
                     currentPage={this.state.currentPage}
                     handlePageChange={this.handlePageChange}
                 />
+                <hr></hr><hr></hr><hr></hr><hr></hr>
                 <div className="container">
                 {this.renderPage()}
                 </div>
